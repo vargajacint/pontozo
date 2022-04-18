@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 1em;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+}
+
+#error {
+  background-color: darkred;
+  color: white;
+}
+
+#success {
+  background-color: green;
+  color: white;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  background-color: darkslategrey;
+}
+
+#navigation button {
+  width: 150px;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  cursor: pointer;
+  background-color: darkslategrey;
+}
+
+.page {
+  padding: 0.5em 3em;
+  background-color: #f4f4f4;
+}
+
+#wrapper {
+  border: 1px solid grey;
+}
+
+#progressbar{
+  overflow: hidden;
+  position: relative;
+  height: 10px;
+  background-color: #f4f4f4;
+}
+
+#progress {
+  position: absolute;
+  height: 10px;
+  background-color: green;
+}
+
+#sumOfPoints{
+  text-align: center;
+  padding: 0.5em;
+}
