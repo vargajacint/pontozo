@@ -146,7 +146,7 @@ const Aspect = ({ aspect, order, onChangeAspect }) => {
 
       {aspect.type === "number" ? (
         <div style={{ flexDirection: "row" }}>
-          <input type="number" min={0} max={aspect.maxValue} required={aspect.required} value={aspect.value} onChange={onChangeValue} />
+          <input type="number" min={0} max={aspect.maxValue} required={aspect.required} value={aspect.value || ""} onChange={onChangeValue} />
 
           <span>/{aspect.maxValue}</span>
         </div>
